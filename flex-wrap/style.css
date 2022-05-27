@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+.flex-container {
+    display: flex;
+    max-height: 150px;
+    border: 2px solid black;
+    max-width: 320px;
+}
+
+.item {
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    width: 100px;
+    line-height: 50px;
+    min-width: 100px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
